@@ -1,11 +1,13 @@
 {{#* inline "page_body"}}
+<a href="index.html">Home</a>
+<br>
 <h2>Anime Boys Holding {{language}} Books </h2>
 <br>
 {{#each pictures}}
 <span class="card-title">{{this.title}}</span>
 <img width="100" src="{{this.img_small_url}}">
 <br>
-hi res image : {{this.img_url}}
+hi res image : <a href="{{this.img_url}}"> here</a>
 {{/each}}
 {{/inline}}
 {{> base}}

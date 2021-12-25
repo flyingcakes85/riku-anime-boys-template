@@ -1,7 +1,11 @@
 {{#* inline "page_body"}}
 {{#each languages as |language|}}
 <div>
-    <span class="card-title">{{language.title}}</span>
+    <span class="card-title">
+        <a href="{{language.title}}.html">
+            {{language.title}}
+        </a>
+    </span>
 </div>
 {{/each}}
 {{/inline}}
